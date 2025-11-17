@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: EddieHubCommunity/gh-action-community/src/welcome@main
+      - uses: dedicatedcloud/gh-action-community/src/welcome@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: "<h3>Hey! contributor, thank you for opening an Issue 🎉.</h3>"
